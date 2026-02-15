@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-orders-dev-centralindia12"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://mrkdatalakegen21.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://kv-mrk-dev-centralindia.vault.azure.net/"
+		},
+		"onpremisesqlserver_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"onpremisesqlserver_properties_typeProperties_database": {
+			"value": "AdventureWorks2025"
+		},
+		"onpremisesqlserver_properties_typeProperties_userName": {
+			"value": "mrk"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
